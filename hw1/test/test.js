@@ -1,6 +1,7 @@
+"use strict";
 var marker = require('marker');
 
-var assert = require('aseert');
+var assert = require('assert');
 
 describe('Marker', function() {
     describe('#constructor()', function() {
