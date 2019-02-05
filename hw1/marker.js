@@ -80,5 +80,5 @@ class MarkerTest{
 
 
 
-var markerTest = new MakerTest();
+var markerTest = new MarkerTest();
 markerTest.testAll();
