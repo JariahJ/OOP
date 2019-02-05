@@ -18,7 +18,7 @@ class Marker{
         console.log("drawing in " + this._color);
         }
         else {
-            throw new BadMarkerState("drawing with a capped marker is bad");
+            throw Marker.BAD_MARKER_CAPPED_DRAW;
         }
     }
 
@@ -35,50 +35,18 @@ class Marker{
             this._capped = value;
         }
             else{
-                throw new BadMarkerState("capped must be true or false");
+                throw Marker.BAD_MARKER_CAPPED_INVALID;
             }
         }
 
     }
 
-class MarkerTest{
-    blackMarker() {return new Marker("black");}
-    redMarker() {return new Marker("red");}
-
-    testDrawCappedBad(){
-        var ok = false;
-        try {
-            var black = this.blackMarker();
-            black.draw();
-        } catch(err){
-            ok = true;
-        }
-        if (!ok) {throw "bad";}
-
-    }
-
-    testDrawUncappedOk(){
-        var red = this.redMarker();
-        red.capped = false;
-        red.draw();
-    }
-
-    testBlackMarkerIsBlack(){
-        var black = this.blackMarker();
-        if (black.color != "black"){
-            throw "bad";
-        }
-    }
-
-    testAll(){
-        this.testBlackMarkerIsBlack();
-        this.testDrawCappedBad();
-        this.testDrawUncappedOk();
-    }
-}
+    Marker.BAD_MARKER_CAPPED_DRAW = new BadMarkerState("drawing with capped marker is bad");
+    Marker.BAD_MARKER_CAPPED_INVALID =new BadMarkerState("capped must be true or false");
 
 
 
+    exports.Marker = Marker;
+    exports.BadMarkerState = BadMarkerState;
 
-var markerTest = new MarkerTest();
-markerTest.testAll();
+
