@@ -41,5 +41,5 @@ public class House {
  }
  
  static publie BadHouseState BAD_HOUSE_MOVE_IN
-         = new BadMarkerStaet("moving into an unfished house is bad");
+         = new BadHouseState("moving into an unfished house is bad");
 }
