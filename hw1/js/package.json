@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "name": "js",
+  "version": "1.0.0",
+  "main": "MyObject.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
