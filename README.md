@@ -1,9 +1,9 @@
 # OOP
- ##JavaScript Object
+ ## JavaScript Object
  https://github.com/JariahJ/OOP/tree/master/hw1/js
  
- ##Java Object
+ ## Java Object
  https://github.com/JariahJ/OOP/tree/master/hw1/java/MyObject.java
  
- ##CPP Object
+ ## CPP Object
  https://github.com/JariahJ/OOP/tree/master/hw1/cpp/CPP/MyObject/MyObject
