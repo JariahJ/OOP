@@ -6,4 +6,12 @@ namespace building {
 	{
 
 	}
+	School::~School() 
+	{
+
+	}
+	School::inhabitants() 
+	{
+		return students;
+	}
 }

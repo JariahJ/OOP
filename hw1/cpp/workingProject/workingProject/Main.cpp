@@ -1,5 +1,7 @@
 #include <iostream>
 #include "Building.h"
+#include "House.h"
+#include "School.h"
 
 int main()
 {
