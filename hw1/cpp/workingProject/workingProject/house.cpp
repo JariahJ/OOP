@@ -2,7 +2,7 @@
 
 namespace building {
 	house::house(Color _color, int _occupants)
-		: color(_color), occupants(_occupants)
+		: Building(_color), occupants(_occupants)
 	{
 
 	}
