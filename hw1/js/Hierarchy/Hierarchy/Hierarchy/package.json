@@ -1,0 +1,9 @@
+{
+  "name": "hierarchy",
+  "version": "0.0.0",
+  "description": "Hierarchy",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  }
+}
