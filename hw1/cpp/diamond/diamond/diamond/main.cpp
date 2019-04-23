@@ -4,8 +4,8 @@
 
 using namespace building
 int main() {
-	HomeSchool a = new HomeSchool;
-	assert(a.Color == COLOR::BLACK);
+	HomeSchool *a = new HomeSchool;
+	assert(a->color == COLOR::BLACK);
 
 
 	return 0;
