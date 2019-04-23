@@ -115,17 +115,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\workingProject\workingProject\Building.h" />
-    <ClInclude Include="..\..\..\workingProject\workingProject\Color.h" />
-    <ClInclude Include="..\..\..\workingProject\workingProject\House.h" />
-    <ClInclude Include="..\..\..\workingProject\workingProject\School.h" />
+    <ClInclude Include="Building.h" />
+    <ClInclude Include="Color.h" />
     <ClInclude Include="HomeSchool.h" />
+    <ClInclude Include="House.h" />
+    <ClInclude Include="School.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\workingProject\workingProject\Building.cpp" />
-    <ClCompile Include="..\..\..\workingProject\workingProject\house.cpp" />
-    <ClCompile Include="..\..\..\workingProject\workingProject\School.cpp" />
+    <ClCompile Include="Building.cpp" />
     <ClCompile Include="HomeSchool.cpp" />
+    <ClCompile Include="house.cpp" />
+    <ClCompile Include="School.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
