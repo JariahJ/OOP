@@ -1,7 +1,5 @@
 #pragma once
 
-#include "Color.h" //need to implement color header file (enum type)
-
 namespace building {
 	class Building {
 	protected: const Color color;

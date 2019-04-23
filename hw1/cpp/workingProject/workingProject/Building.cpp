@@ -1,4 +1,5 @@
 #include "Building.h"
+#include "Color.h"
 
 namespace building {
 
