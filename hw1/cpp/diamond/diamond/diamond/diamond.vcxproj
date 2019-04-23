@@ -125,6 +125,7 @@
     <ClCompile Include="Building.cpp" />
     <ClCompile Include="HomeSchool.cpp" />
     <ClCompile Include="house.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="School.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
