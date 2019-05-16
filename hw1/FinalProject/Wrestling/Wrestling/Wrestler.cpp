@@ -8,12 +8,12 @@ namespace Wrestling {
 
 	}
 
-	std::string Wrestler::getName() const 
+	std::string Wrestler::getName() /*const*/
 	{
 		return name;
 	}
 
-	int Wrestler::getPopularity() const
+	int Wrestler::getPopularity() /*const*/
 	{
 		return popularity;
 	}

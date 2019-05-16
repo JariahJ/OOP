@@ -1,0 +1,46 @@
+Stone Cold Steve Austin
+88
+Undertaker
+87
+Shawn Michaels
+84
+Big Show
+77
+Hulk Hogan
+90
+Rey Mysterio
+82
+Johh Cena
+90
+Triple H
+80
+Bautista
+75
+Ric Flair
+72
+Kane
+78
+Matt Hardy
+65
+Jeff Hardy
+75
+Edge
+81
+Kurt Angle
+87
+Randy Orton
+79
+Chris Benoit
+78
+Doink
+50
+The Rock
+91
+Brock Lesnar
+50
+Vince McMahon
+25
+Eddie Guerrero
+85
+Booker T
+60
